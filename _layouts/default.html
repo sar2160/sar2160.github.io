@@ -51,35 +51,7 @@
 						</ul>
 					</nav>
 
-					<div id="main">
-						<div class="inner">
-
 					{{ content }}
-
-					<section class = "tiles">
-
-					{% for item in site.portfolio %}
-					<article class="style4">
-								<span class="image">
-									<img src= "{{ item.image_path }}" alt="" />
-								</span>
-								<a href="generic.html">
-									<h2>{{ item.title }}</h2>
-									<div class="content">
-										<p>{{ item.tagline }}</p>
-									</div>
-								</a>
-							</article>
-
-					{% endfor %}
-
-
-				</section>
-
-			</div>
-		</div>
-
-
 
 				<!-- Footer -->
 					<footer id="footer">
