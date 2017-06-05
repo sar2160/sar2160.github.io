@@ -1,0 +1,80 @@
+---
+layout: default
+---
+
+<!--
+	Phantom by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+
+
+-->
+<header>
+	<h1>Hi I'm Simon. A good and nice person. <br />
+	</h1>
+	<p>The basics</p>
+</header>
+<section class="tiles">
+	<article class="style1">
+		<span class="image">
+			<img src="images/pic01.jpg" alt="" />
+		</span>
+		<a href="generic.html">
+			<h2>Day Job</h2>
+			<div class="content">
+				<p>NYC Mayor's Office of Data Analytics </p>
+			</div>
+		</a>
+	</article>
+	<article class="style2">
+		<span class="image">
+			<img src="images/pic02.jpg" alt="" />
+		</span>
+		<a href="generic.html">
+			<h2>Night School</h2>
+			<div class="content">
+				<p>MA in Quantitative Methods for Social Science @ Columbia (exp. 2018)</p>
+			</div>
+		</a>
+	</article>
+	<article class="style3">
+		<span class="image">
+			<img src="images/pic03.jpg" alt="" />
+		</span>
+		<a href="generic.html">
+			<h2>Weekend Things</h2>
+			<div class="content">
+				<p>Well rounded individual</p>
+			</div>
+		</a>
+	</article>
+</section>
+
+				<div id="main">
+						<div class="inner">
+
+					<h1> <br> Stuff I enjoy and think about a lot</h1>
+
+
+					<section class = "tiles">
+
+					{% for item in site.portfolio %}
+					<article class="style4">
+								<span class="image">
+									<img src= "{{ item.image_path }}" alt="" />
+								</span>
+								<a href="generic.html">
+									<h2>{{ item.title }}</h2>
+									<div class="content">
+										<p>{{ item.tagline }}</p>
+									</div>
+								</a>
+							</article>
+
+					{% endfor %}
+
+
+				</section>
+
+			</div>
+		</div>
