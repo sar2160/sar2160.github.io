@@ -23,7 +23,7 @@ layout: default
 			<span class="image">
 				<img src= "{{ item.image_path }}" alt="" />
 			</span>
-			<a href="{{ item.html_path }}">
+			<a href="{{ base }} {{ item.html_path }}">
 				<h2>{{ item.title }}</h2>
 				<div class="content">
 					<p>{{ item.tagline }}</p>
