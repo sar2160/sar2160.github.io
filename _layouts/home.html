@@ -21,9 +21,9 @@ layout: default
 {% for item in site.portfolio %}
 <article class="{{item.style}}">
 			<span class="image">
-				<img src= "{{ item.image_path }}" alt="" />
+				<img src= "{{ site.baseurl }}{{item.image_path }}" alt="" />
 			</span>
-			<a href="{{ site.baseurl }} {{ item.html_path }}">
+			<a href="{{ site.baseurl }}{{ item.html_path }}">
 				<h2>{{ item.title }}</h2>
 				<div class="content">
 					<p>{{ item.tagline }}</p>
