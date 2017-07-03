@@ -8,17 +8,14 @@ title: Blog
 
            {% for post in site.posts %}
 
-              {% if post.tag == page.tag %}
+              {% if post.tags contains page.tag %}
 
-                  <h1> {{ post.title }} </h1>
-
-                  <ul style="list-style-position: inside">
-                   <li>
-                     - {{ post.date | date: "%d %B %Y" }}
-                   </li>
-                  </ul>
+                  <h1><a href="{{site.baseurl}}/{{post.date | date: "%Y" }}/{{post.title}}"> {{ post.title }}</a> </h1>
+                <!--     <h3> - {{ post.date | date: "%d %B %Y" }} </h3> -->
                   <p> {{ post.content }} </p>
-
+                  <br>
+                  <br>
+                  <br>
 
                 {% endif %}
            {% endfor %}

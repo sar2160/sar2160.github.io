@@ -4,3 +4,6 @@ collections:
 
 
 baseurl: /html5_site
+
+
+permalink: /:year/:title.html
