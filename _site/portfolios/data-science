@@ -79,7 +79,7 @@
 
               
 
-                  <h1><a href="/2017/A Tale of K Cities"> A Tale of K Cities</a> </h1>
+                  <h1><a href="/2017/KCities.html"> A Tale of K Cities</a> </h1>
                 <!--     <h3> - 08 April 2017 </h3> -->
                   <p> <p>Here’s a little project I did running clustering algorithms on New York City neighborhoods. Anybody who lives in the five boroughs knows certain neighborhoods are more like others, whether for cultural, economic, or other reasons. I fed a bunch of sociological and economic data from the 2010 Census into a K-means clustering algorithm and asked it to identify three distinct types of neighborhoods in the city. What makes this interesting is I didn’t feed the model any underlying structure (this is unsupervised learning). Nevertheless, the results match a lot of my qualitative priors established from living in NYC for the past eight years. So what do I think the clustering algorithm found?</p>
 
