@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Adventures in Path Dependency"
-tags: social-science
+categories: social-science
 ---
 
 I read Scott E. Page's article *Path Dependence* for a class and thought it would be fun to model some of his examples.
