@@ -1,0 +1,9 @@
+collections:
+  portfolio:
+  posts:
+
+
+baseurl: /html5_site
+
+
+permalink: /:year/:title/

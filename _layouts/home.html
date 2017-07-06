@@ -1,0 +1,40 @@
+---
+layout: default
+---
+
+<!--
+	Phantom by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+
+
+-->
+
+
+<div id="main">
+	<div class="inner">
+
+{{ content }}
+
+<section class = "tiles">
+
+{% for item in site.portfolio %}
+<article class="{{item.style}}">
+			<span class="image">
+				<img src= "{{ site.baseurl }}{{item.image_path }}" alt="" />
+			</span>
+			<a href="{{ site.baseurl }}/portfolios/{{ item.category }}/">
+				<h2>{{ item.title }}</h2>
+				<div class="content">
+					<p>{{ item.tagline }}</p>
+				</div>
+			</a>
+		</article>
+
+{% endfor %}
+
+
+</section>
+
+</div>
+</div>
