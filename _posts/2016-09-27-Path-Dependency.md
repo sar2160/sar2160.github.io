@@ -19,14 +19,14 @@ Here's some examples:
 
 Pick a random ball (and then return it), add a ball of the same color to the urn. This process quickly converges to a steady percentage of Maroon balls, dependent on the initial few iterations. The first few times determines the outcome forever.
 
-<img src="assets/polya.gif" alt="A polya process" style= "width: 400px;" align="center"/>
+<img src="{{site.basurl}}/images/polya.gif" alt="A polya process" style= "width: 800px;" align="center"/>
 
 
 ### Balancing Process:
 
 Pick a random ball (and return it), add a ball of the opposite color to the urn. As the name implies, this process converges to an approximately even balance of Maroon and Black balls.
 
-<img src="assets/balancing.gif" alt="A balancing process" style= "width: 400px;" align="center"/>
+<img src="{{site.basurl}}/images/balancing.gif" alt="A balancing process" style= "width: 800px;" align="center"/>
 
 
 ### Biased Polya Process:
@@ -34,7 +34,7 @@ Pick a random ball (and return it), add a ball of the opposite color to the urn.
 Same as the Polya process, but we start with two Black balls and only one Maroon ball. This imbalance is enough
 to cause the urn to fill overwhelmingly with Black balls over time.
 
-<img src="assets/biased_polya.gif" alt="A biased polya process" style= "width: 400px;" align="center"/>
+<img src="{{site.basurl}}/images/biased_polya.gif" alt="A biased polya process" style= "width: 800px;" align="center"/>
 
 
 Page describes many other processes that are more interesting and I have yet to get to all of them; maybe I'll fill them in over time. I find the exercise to be a very useful way to look at the spread of social institutions over time.
