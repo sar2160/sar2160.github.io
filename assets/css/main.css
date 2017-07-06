@@ -1978,7 +1978,7 @@ button,
         height: 100%;
         opacity: 1.0;
         z-index: 1;
-        opacity: 0.8; }
+        opacity: 0.6; }
       .tiles article > .image:after {
         -moz-pointer-events: none;
         -webkit-pointer-events: none;
