@@ -1,7 +1,7 @@
 ---
 title: The 'New Economy'
 category: neweconomy
-tagline: Big thoughts here
-image_path: /images/pic05.jpg
-style: style5
+tagline: 
+image_path: /images/pic06.jpg
+style: style6
 ---
