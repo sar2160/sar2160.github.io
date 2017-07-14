@@ -3,7 +3,6 @@ collections:
   posts:
 
 
-baseurl: /html5_site
-
+baseurl:
 
 permalink: /:year/:title/
