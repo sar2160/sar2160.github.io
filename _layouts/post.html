@@ -7,7 +7,8 @@ layout: default
 <!-- Main -->
 					<div id="main">
 						<div class="inner">
-							<h1>{{page.title}}</h1>
+							<h1>{{page.title}} | <i>{{ page.date | date_to_long_string }}</i></h1>
+
 															{{ content }}
 						</div>
 					</div>
