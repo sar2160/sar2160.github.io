@@ -2,7 +2,7 @@ collections:
   portfolio:
   posts:
 
-
 baseurl:
 
 permalink: /:year/:title/
+google_analytics:
