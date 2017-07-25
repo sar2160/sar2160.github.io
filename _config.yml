@@ -5,4 +5,4 @@ collections:
 baseurl:
 
 permalink: /:year/:title/
-google_analytics:
+google_analytics: UA-84598005-1

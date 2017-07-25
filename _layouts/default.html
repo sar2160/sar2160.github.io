@@ -42,6 +42,8 @@
 						</div>
 					</header>
 
+
+
 				<!-- Menu -->
 					<nav id="menu">
 						<h2>Menu</h2>
@@ -104,6 +106,12 @@
 			<script src="{{site.baseurl}}/assets/js/util.js"></script>
 			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="{{site.baseurl}}/assets/js/main.js"></script>
+
+
+			{% if jekyll.environment == 'production' %}
+				    {% include analytics.html %}
+			{% endif %}
+
 
 	</body>
 </html>
