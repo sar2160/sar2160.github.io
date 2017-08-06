@@ -1,0 +1,37 @@
+---
+layout: default
+title: Tags
+permalink: /tags.html
+---
+
+<!-- https://github.com/codinfox/codinfox-lanyon/blob/dev/blog/categories.html -->
+
+
+<div id="main">
+	<div class="inner">
+
+			<h1> Posts organized by content tags</h1>
+
+			<br>
+
+
+
+			{% for tag in site.tags %}
+	    <ul>
+				<li class="button small" id="{{ tag[0] | slugify }}">{{ tag[0] }}</li>
+				<ul>
+	      {% for post in tag[1] %}
+	        <a href="{{ site.baseurl }}{{ post.url }}">
+	      <li>
+	        {{ post.title }}
+	      <small> | {{ post.date | date_to_string }}</small>
+	      </li>
+	      </a>
+	      {% endfor %}
+			</ul>
+	    </ul>
+			{% endfor %}
+
+
+		</div>
+</div>

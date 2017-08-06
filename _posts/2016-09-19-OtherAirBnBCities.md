@@ -2,6 +2,7 @@
 layout: post
 title: "AirBnB Addendum: What about other cities?"
 categories: [nyc, neweconomy, data]
+tags: [python, plot.ly]
 ---
 
 Is New York City unique in the extent that a few operators dominate listings revenue? *Yes* and *No*.

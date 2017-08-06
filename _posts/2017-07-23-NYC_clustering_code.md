@@ -2,6 +2,7 @@
 title: "k-means clustering for NYC"
 layout: post
 categories: [data]
+tags: [R, k-means clustering]
 ---
 
 

@@ -2,6 +2,7 @@
 title: "Spotify Artist Clustering Code (Python & R)"
 layout: post
 categories: [music, data]
+tags: [python , k-means clustering, R, ggplot2]
 ---
 
 

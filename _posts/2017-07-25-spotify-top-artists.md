@@ -2,6 +2,7 @@
 title: "What Have I Been Listening To?"
 layout: post
 categories: [music, data]
+tags: [python, ggplot2, R]
 ---
 
 Spotify doesn't (easily) let users track their listening history, which is a bummer for someone like me who listens to a lot of music and would love to play with the data. However, buried in the Spotify API is a functionality that **does** let users access their own "top artists".<sup>1</sup>
