@@ -7,8 +7,25 @@ layout: default
 <!-- Main -->
 					<div id="main">
 						<div class="inner">
+
+
 							<h1>{{page.title}} | <i>{{ page.date | date_to_long_string }}</i></h1>
 
+							<ul class="actions small">
+								{% for tag in page.tags %}
+							<li><a href="#" class="button small">{{tag}}</a></li>
+
+							{% endfor %}
+									<hr>
+									<br>
+
 															{{ content }}
+
+
+
+								</ul>
+
 						</div>
+
+
 					</div>
