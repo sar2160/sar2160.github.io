@@ -2,7 +2,6 @@
 title: "What Have I Been Listening To?"
 layout: post
 categories: [music, data]
-tags: [python, ggplot2, R]
 ---
 
 Spotify doesn't (easily) let users track their listening history, which is a bummer for someone like me who listens to a lot of music and would love to play with the data. However, buried in the Spotify API is a functionality that **does** let users access their own "top artists".<sup>1</sup>
@@ -16,4 +15,4 @@ Anyway, data don't lie, see for yourself below.
 </iframe>
 
 *A note on the Spotify API:*
-[1] Look, I just admitted I'm lame, but I'm not *that* lame. I cannot figure out why Spotify thinks I listen to Harry Belafonte a lot. I don't think I've ever done that knowingly; the same goes for Imagine Dragons. And I certainly don't listen to Bob Marley often enough to justify him being a top artist. My best guess is there's some idiosyncrasy in Spotify's own 'top artist' algorithm that weights very popular artists more heavily in the rankings. It just seems impossible for these to be based purely on my own play counts.
+[1] But maybe data do lie sometimes. I cannot figure out why Spotify thinks I listen to Harry Belafonte or Bob Marley a lot. They come up in playlists but they aren't in regular rotation for me. My best guess is there's some idiosyncrasy in Spotify's own 'top artist' algorithm that weights very popular artists more heavily in the rankings. It just seems impossible for these to be based purely on my own play counts. And I've never ever EVER listened to Imagine Dragons.
